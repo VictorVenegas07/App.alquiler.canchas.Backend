@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.alquiler.canchas.infraestructura.datos\App.canchas.infraestructura.datos.csproj" />
+    <ProjectReference Include="..\App.canchas.Dominio\App.canchas.Dominio.csproj" />
+    <ProjectReference Include="..\App.chanchas.aplicacion\App.chanchas.Aplicacion.csproj" />
+  </ItemGroup>
+
+</Project>
